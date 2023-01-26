@@ -1,0 +1,28 @@
+﻿<Window x:Class="aLibrary.adminmenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aLibrary"
+        mc:Ignorable="d"
+        Title="adminmenu" Height="415" Width="782">
+    <Grid Background="#FF327364" Margin="0,0,0,-6">
+        <Button x:Name="confirm" Content="" HorizontalAlignment="Left" Margin="237,59,0,0" VerticalAlignment="Top" Height="51" Width="203" Click="confirm_Click" FontWeight="Bold" FontSize="16" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/button1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="logout" Content="" HorizontalAlignment="Left" Margin="237,203,0,0" VerticalAlignment="Top" Height="56" Width="203" Click="logout_Click" FontSize="16" FontWeight="Bold" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/button3.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="user" Content="" HorizontalAlignment="Left" Margin="454,127,0,0" VerticalAlignment="Top" Height="56" Width="202" Click="user_Click" FontWeight="Bold" FontSize="16" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/button2.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="158" Margin="10,10,0,0" VerticalAlignment="Top" Width="157" Source="/admin.png"/>
+
+    </Grid>
+</Window>

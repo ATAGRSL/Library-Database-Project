@@ -1,0 +1,25 @@
+﻿<Window x:Class="aLibrary.usersettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aLibrary"
+        mc:Ignorable="d"
+        Title="usersettings" Height="576" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/library4.jpg"/>
+        </Grid.Background>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="252" Margin="64,75,0,0" VerticalAlignment="Top" Width="693" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="64,363,0,0" VerticalAlignment="Top" Width="693" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="Red" FontSize="16"/>
+        <Button x:Name="confirm2" Content="" HorizontalAlignment="Center" Height="58" Margin="0,439,0,0" VerticalAlignment="Top" Width="382" Click="confirm2_Click" FontWeight="Bold" FontSize="16">
+            <Button.Background>
+                <ImageBrush ImageSource="/button18.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+</Window>

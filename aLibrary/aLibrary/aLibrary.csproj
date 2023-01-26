@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="account.png" />
+    <None Remove="admin.png" />
+    <None Remove="book1.jpeg" />
+    <None Remove="button.png" />
+    <None Remove="button1.png" />
+    <None Remove="button10.png" />
+    <None Remove="button11.png" />
+    <None Remove="button12 .png" />
+    <None Remove="button13.png" />
+    <None Remove="button14.png" />
+    <None Remove="button15.png" />
+    <None Remove="button16.png" />
+    <None Remove="button17.png" />
+    <None Remove="button18.png" />
+    <None Remove="button2.png" />
+    <None Remove="button22.png" />
+    <None Remove="button3.png" />
+    <None Remove="button4.png" />
+    <None Remove="button5.png" />
+    <None Remove="button6.png" />
+    <None Remove="button7.png" />
+    <None Remove="button8.png" />
+    <None Remove="button9.png" />
+    <None Remove="library.png" />
+    <None Remove="library2.jpg" />
+    <None Remove="library4.jpg" />
+    <None Remove="login.png" />
+    <None Remove="menu %281%29.png" />
+    <None Remove="menu.png" />
+    <None Remove="register.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="account.png" />
+    <Resource Include="admin.png" />
+    <Resource Include="book1.jpeg" />
+    <Resource Include="button.png" />
+    <Resource Include="button1.png" />
+    <Resource Include="button10.png" />
+    <Resource Include="button11.png" />
+    <Resource Include="button12 .png" />
+    <Resource Include="button13.png" />
+    <Resource Include="button14.png" />
+    <Resource Include="button15.png" />
+    <Resource Include="button16.png" />
+    <Resource Include="button17.png" />
+    <Resource Include="button18.png" />
+    <Resource Include="button2.png" />
+    <Resource Include="button22.png" />
+    <Resource Include="button3.png" />
+    <Resource Include="button4.png" />
+    <Resource Include="button5.png" />
+    <Resource Include="button6.png" />
+    <Resource Include="button7.png" />
+    <Resource Include="button8.png" />
+    <Resource Include="button9.png" />
+    <Resource Include="library.png" />
+    <Resource Include="library2.jpg" />
+    <Resource Include="library4.jpg" />
+    <Resource Include="login.png" />
+    <Resource Include="menu.png" />
+    <Resource Include="register.png" />
+  </ItemGroup>
+
+</Project>

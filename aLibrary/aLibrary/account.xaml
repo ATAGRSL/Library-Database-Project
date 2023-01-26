@@ -1,0 +1,26 @@
+﻿<Window x:Class="aLibrary.account"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aLibrary"
+        mc:Ignorable="d"
+        Title="account" Height="557" Width="613" Loaded="Window_Loaded">
+    <Grid Background="#FFDDDE29">
+        <Label x:Name="label" Content="ACCOUNT PANEL - WELCOME " HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Height="52" Width="588" HorizontalContentAlignment="Center" FontSize="30" FontWeight="Bold"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="124,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" Height="71"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="124,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" Height="71"/>
+        <TextBox x:Name="textBox12" HorizontalAlignment="Left" Margin="124,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" Height="71"/>
+        <Label x:Name="label1" Content="PLEASE ENTER CURRENT PASSWORD:" HorizontalAlignment="Left" Margin="124,66,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="label12" Content="PLEASE ENTER NEW PASSWORD:" HorizontalAlignment="Left" Margin="124,164,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="label123" Content="PLEASE ENTER NEW PASSWORD AGAİN:" HorizontalAlignment="Left" Margin="124,269,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="save" Content="" HorizontalAlignment="Left" Margin="180,408,0,0" VerticalAlignment="Top" Width="126" Height="50" Click="save_Click" FontWeight="Bold" Foreground="Black" BorderBrush="#FFD5F900">
+            <Button.Background>
+                <ImageBrush ImageSource="/button.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="label2" Content="" HorizontalAlignment="Left" Margin="35,377,0,0" VerticalAlignment="Top" Width="421" HorizontalContentAlignment="Center" Foreground="Red" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="192" Margin="421,177,0,0" VerticalAlignment="Top" Width="164" Source="/account.png"/>
+
+    </Grid>
+</Window>
